@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
       ),
       themeMode: ThemeMode.system,
       darkTheme: ThemeData(brightness: Brightness.light),
-      initialRoute: "/",
+      initialRoute: MyRoutes.loginRoute,
       routes: {
         "/": (context) => const LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
